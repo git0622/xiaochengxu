@@ -1,0 +1,7 @@
+<view class="container">
+  <image class="user-avatar" src="/images/avatar/1.png"></image>
+  <text class="moto">hello</text>
+  <view class="journey-container" bind:tap="onTap">
+    <text class="journey">我的第一个小程序</text>
+  </view>
+</view>

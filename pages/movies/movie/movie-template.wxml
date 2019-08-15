@@ -1,0 +1,9 @@
+<import src="../stars/stars-template.wxml" />
+<template name="movieTemplate">
+  <view class="movie-container">
+    <!-- <image class="movie-image" src="/images/dianying.webp"></image> -->
+    <image class="movie-image" src="{{coverageUrl}}"></image>
+    <text class="moview-title">{{title}}</text>
+    <template is="starsTemplate" data="{{stars:stars,score:average}}"></template>
+  </view>
+</template>

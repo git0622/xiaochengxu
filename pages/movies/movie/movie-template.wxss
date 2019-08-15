@@ -1,0 +1,16 @@
+@import "../stars/stars-template.wxss";
+.movie-container{
+  display:flex;
+  flex-direction: column;
+  padding-bottom:10rpx;
+}
+.movie-image{
+  width:200rpx;
+  height:200rpx;
+  /* padding-bottom: 20rpx; */
+}
+.moview-title{
+  /* margin-bottom:16rpx; */
+  font-size:24rpx;
+  text-align:center;
+}
